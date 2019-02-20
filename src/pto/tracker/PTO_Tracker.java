@@ -545,32 +545,6 @@ public class PTO_Tracker extends javax.swing.JFrame {
         
     }
     
-//        private void getDBData(){
-//        try{ 
-//
-//        Class.forName("org.apache.derby.jdbc.ClientDriver");
-//
-//        Connection con = DriverManager.getConnection("jdbc:derby://localhost:1527/PTO Tracker", "jeichman", "Busterwa1");
-//        Statement stmt = con.createStatement();
-//        String table = "\"2017\"";
-//        
-//        ResultSet rs = stmt.executeQuery("SELECT * FROM APP."+table);
-//        
-//        while (rs.next()) {
-//        Date dateTaken = rs.getDate("DATE_TAKEN");
-//        Integer HoursTaken = rs.getInt("HOURS_TAKEN");
-//    }
-//        stmt.close();
-//        con.close();
-//        }
-//        catch(ClassNotFoundException e){
-//            System.out.println(e);
-//        }catch(SQLException e){
-//            System.err.println(e);
-//        } catch (Exception ex) {
-//            Logger.getLogger(PTO_Tracker.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-//    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEditWindow;
