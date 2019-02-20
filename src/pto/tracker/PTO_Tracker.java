@@ -8,11 +8,8 @@ package pto.tracker;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 /**
  *
  * @author Jason Eichman
