@@ -15,7 +15,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 /**
  *
- * @author Jason.Eichman
+ * @author Jason Eichman
  */
 
 public class PTO_Tracker extends javax.swing.JFrame {
